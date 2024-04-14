@@ -1,0 +1,40 @@
+body {
+    background-image: url('/images/arcade-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family:Verdana,sans-serif;
+    font-size: 30px;
+    text-align: center;
+    z-index: 1;
+}
+.username-div{
+    position: absolute;
+    top: 250px;
+    left: 700px
+}
+
+#start-btn{
+    margin-top: 50px;
+    height: 200px;
+    width:750px;
+    background-color: lightgray;
+    box-shadow: 0px 10px 15px lightgray;
+    color: blue;
+    border:none;
+    padding: 12px 24px;
+    font-family: Verdana, sans-serif;
+    font-size: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#start-btn:hover{
+    transform: scale(1.05);
+    transform-style: preserve-3d;
+}
+#cards\.container{
+    display: none;
+}
+
+
+
